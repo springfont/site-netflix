@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baki Hanma</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+
+<body>
+    
+    <header>
+
+        <a href="#" class="logo">
+            <img src="assets/img/logo.png" alt="netflix" width="160px" height="80">
+        </a>
+
+        <ul class="navigation">
+
+            <li><a href="sobre.html" target="_blank">Entrar</a></li>
+            <li><a href="#">Séries</a></li>
+            <li><a href="#">Filmes</a></li>
+            <li><a href="#">Mais recentes</a></li>
+            <li><a href="#">Minha lista</a></li>
+
+        </ul>
+
+        <div class="search">
+
+            <input type="text" placeholder="Search">
+            <i class="fas fa-search"></i>
+
+        </div>
+
+    </header>
+
+
+    <div class="banner">
+
+        <img src="assets/img/bg.jpg" class="bg" alt="baki">
+        
+        <div class="content">
+
+            <img src="assets/img/name.png" alt="hanma" class="movieTitle">
+
+            <h4>
+                <span>2020</span>
+                <span><i>18+</i></span>
+                <span>2 Temporadas</span>
+                <span>Action</span>
+            </h4>
+
+            <p><strong>Baki Hanma (範馬 刃牙)</strong> é o protagonista da franquia Baki the Grappler. Ele aparenta ser um adolescente normal, até meio bobão à primeira vista, sendo brincalhão e descontraído com os amigos, mas isso esconde o monstro que ele realmente é: Um guerreiro que adora lutar, disposto a dar seu suor e sangue em troca da vitória. Seu objetivo não é nada mais, nada menos do que o de derrotar o seu pai: Yujiro Hanma, a criatura mais forte do mundo...
+            </p>
+
+            <div class="buttons">
+
+                <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play</a>
+
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> My List</a>
+
+            </div>
+
+        </div>
+
+        <a class="play" onclick="toggleVideo()">
+            <img src="assets/img/play.png" alt="play">
+            Watch Trailer</a>
+    </div>
+
+    <div class="trailer">
+
+        <video src="assets/img/Video.mp4" controls="true"></video>
+        <img src="assets/img/close.png" alt="close" onclick="toggleVideo()">
+        </span>
+
+    </div>
+
+
+</body>
+    <script src="assets/js/script.js"></script>
+</html>
